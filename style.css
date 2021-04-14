@@ -1,6 +1,13 @@
+
+
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+    margin: 1rem;
+    margin-bottom: 7rem;
 }
 
 body {
@@ -24,13 +31,17 @@ body {
     flex-direction:row-reverse;
 }
 
+h1 {
+    margin-left: 1rem;
+}
+
 h4 {
     margin-top: 2rem;
 }
 
 .header {
     border-bottom: solid #7833DE 5px;
-    background-color: #FA3AD3;
+    background-color: #FA3AD3; 
     height: 140px;
     width: 1000px;
     
@@ -45,7 +56,6 @@ h4 {
 }
 
 .main {
-    
     background-color: #FA3AD3;
     height: 140px;
     width: 450px;

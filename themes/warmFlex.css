@@ -1,0 +1,100 @@
+@keyframes header {
+    from {
+        background-color: #721121;
+    }
+
+    to {
+        background-color: #ef6351ff;
+    }
+}
+
+@keyframes menu {
+    from {
+        background-color: var(--lightbrown);
+    }
+
+    to {
+        background-color: salmon;
+    }
+}
+
+@keyframes main {
+    from {
+        background-color: var(--pink);
+    }
+
+    to {
+        background-color: var(--vivid-tangerine);
+    }
+}
+
+@keyframes right {
+    from {
+        background-color: var(--yellow);
+    }
+
+    to {
+        background-color: var(--spanish-pink);
+    }
+}
+
+@keyframes footer {
+    from {
+        background-color: var(--lightYellow);
+    }
+
+    to {
+        background-color: var(--misty-rose);
+    }
+}
+
+:root {
+    --red: #721121;
+    --lightbrown: #A5402D;
+    --pink: #F15156;
+    --yellow: #FFC07F;
+    --lightYellow: #FFCF99;
+    --brown: #82321B;
+}
+
+:root {
+    --fire-opal: #ef6351ff;
+    --salmon: #f38375ff;
+    --vivid-tangerine: #f7a399ff;
+    --spanish-pink: #fbc3bcff;
+    --misty-rose: #ffe3e0ff;
+}
+
+.box1 {
+    outline-color: var(--brown);
+}
+
+.header {
+    background-color: var(--red);
+    border-bottom: solid var(--brown) 5px;
+    animation: header 3s 3s infinite alternate;
+}
+
+.menu {
+    background-color: var(--yellow);
+    border-right: solid var(--brown) 5px;
+    animation: menu 3s 3s infinite alternate;
+}
+
+.main {
+    background-color: var(--lightbrown);
+    animation: main  3s 3s infinite alternate;
+}
+
+.right {
+    background-color: var(--lightYellow);
+    border-left: solid var(--brown) 5px;
+    animation: right 3s 3s infinite alternate;
+}
+
+.footer {
+    background-color: var(--pink);
+    border-top: solid var(--brown) 5px;
+    animation: footer 3s 3s infinite alternate;
+}
+
